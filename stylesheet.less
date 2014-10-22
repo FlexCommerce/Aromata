@@ -587,13 +587,30 @@ input[type="search"]::-webkit-search-decoration {
 			&:hover{
 				background-color: @color-swatch5;
 				color: @color-swatch1;
-				.scale(1.2);
+				
 
 				span{
 					clearfixolor: @color-swatch1;
 				}
 				a{
 					color: @color-swatch1;				
+				}
+			}
+
+		}
+	}
+	& > ul{
+		& > li{
+			&:hover{
+			}
+			&.page{
+				&:hover{
+				.scale(1.2);
+				}
+			}
+			&.home{
+				&:hover{
+				.scale(1.2);
 				}
 			}
 		}
